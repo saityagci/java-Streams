@@ -18,7 +18,7 @@ public class GettingStarted {
         
         List<Person>people=MockData.getPeople();
         List<Person>youngPeople=new ArrayList<>();
-        int limit=8;
+        int limit=9;
         int counter=0;
         for (Person person : people) {
             if (person.getAge()<18){
